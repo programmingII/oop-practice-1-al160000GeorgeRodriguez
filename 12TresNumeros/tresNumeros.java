@@ -1,7 +1,7 @@
 //Autor: George Rodríguez
 //Fecha y hora: 7/2/2019 12:22
 //Hace: Write a Java program that takes three numbers as input to calculate and print the average of the numbers.
-import java.util.Scanner; //Biblioteca para ingresar los numeros
+import java.util.Scanner; //Biblioteca para ingresar los numeros desde teclado
 class TresNumeros{
     public static void main(String[] Args){
         Scanner entrada=new Scanner(System.in); // Se inicializa el proceso de entrada
