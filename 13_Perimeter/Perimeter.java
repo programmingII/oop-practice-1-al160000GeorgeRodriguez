@@ -1,7 +1,7 @@
 //Autor: George Rodríguez
 //Fecha y hora: 7/2/2019 12:30
 //Hace: 13. Write a Java program to print the area and perimeter of a rectangle.
-import java.util.Scanner;
+import java.util.Scanner; //Biblioteca para ingresar los numeros desde teclado
 class Perimeter{
     public static void main(String[] Args){
         Scanner entrada=new Scanner(System.in); // Se inicializa el proceso de entrada
