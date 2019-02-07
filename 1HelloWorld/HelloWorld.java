@@ -3,7 +3,7 @@
 //Hace: Imprime dos mensajes
 class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello ");
-        System.out.println("Alexandra Abramov");
+        System.out.println("Hello "); //Se imprime el mensaje
+        System.out.println("Alexandra Abramov"); //Se imprime el mensaje
     }
 }

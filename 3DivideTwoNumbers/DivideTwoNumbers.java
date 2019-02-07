@@ -3,7 +3,7 @@
 //Hace: division de dos variables
 class DivideTwoNumbers{
     public static void main(String[] args){
-        System.out.println(50/3);
+        System.out.println(50/3); //Se imprime el resultado
         
     }
 }

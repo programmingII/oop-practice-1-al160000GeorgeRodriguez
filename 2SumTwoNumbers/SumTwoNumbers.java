@@ -5,7 +5,7 @@
 class SumTwoNumbers {
     public static void main(String[] args) {
       
-        System.out.println("Suma de dos numeros ");
-        System.out.println("El resultado de sumar 2+2 es: "+(2+2));
+        System.out.println("Suma de dos numeros "); //Se imprime el mensaje
+        System.out.println("El resultado de sumar 2+2 es: "+(2+2)); //Se imprime el mensaje y resultado
     }
 }
