@@ -9,7 +9,7 @@ System.out.print("Ingresa el primer numero: "); //Se imprime el mensaje
 int numero1=entrada.nextInt();
 System.out.print("Ingresa el segundo numero: "); //Se imprime el mensaje
 int numero2=entrada.nextInt();
-System.out.print(numero1+"x"+numero2+" = "+numero1*numero2);
+System.out.print(numero1+"x"+numero2+" = "+numero1*numero2); //Se presenta el resultado
 
 
     }
