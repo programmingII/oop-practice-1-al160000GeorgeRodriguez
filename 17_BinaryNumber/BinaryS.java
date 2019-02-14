@@ -9,8 +9,7 @@ class BinaryS{
         int acarreo=0,sumaParcial=0;
         StringBuilder resultado= new StringBuilder(""); //Se inicializa el constructor  de cadenas
         int along=Long.toString(a).length(); //obtiene la longitud de la cadena
-        int blong=Long.toString(b).length();
-        
+        int blong=Long.toString(b).length();        
         if(along>blong){            // Se analiza si los numeros son del mismo tamaño
             for(int i=0;i<along-blong;i++){
                 bs="0"+bs;               //Se agregan los ceros correspodientes al menor
@@ -52,8 +51,5 @@ class BinaryS{
         System.out.println("Ingrese otro numero en binario: "); //Se pide un numero al usuario
         long b=entrada.nextLong(); //Se ingresa por teclado
         System.out.println("La suma es: "+suma(a,b)); //Se pide un numero al usuario
-
-      
-
     }
 }
