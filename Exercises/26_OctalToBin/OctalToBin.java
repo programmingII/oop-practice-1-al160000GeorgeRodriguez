@@ -7,7 +7,7 @@ import java.util.Scanner; //Se importa la librería Scanner para el ingreso desd
 public class OctalToBin {
     public static long conversion(long octal_num,int i) // Función recursiva original
     {
-        int[] octal_numvalues={0,1,10,11,100,101,110,111};
+        int[] octal_numvalues={0,1,10,11,100,101,110,111}; //Matriz de datos principall
         if (octal_num != 0) {
             return (octal_numvalues[(int)(octal_num % 10)] * i+conversion(octal_num/10,i*1000)); // Se genera la función recursiva
         } else {
