@@ -6,11 +6,11 @@ import java.util.Scanner;
 
 public class decToOct {
     public static String conversion(int decimal) {
-        char hex[] = { '0', '1', '2', '3', '4', '5', '6', '7', '8' }; 
+        char dec[] = { '0', '1', '2', '3', '4', '5', '6', '7', '8' }; 
         int indice; // se declara la variable para numero ingresado y el indice del arreglo
         indice = decimal % 8; // se saca el modulo
         if (decimal > 0) {
-            return (conversion(decimal/8) + hex[indice]); // Se ocupa el indice para asignar la variable Hasta que ya
+            return (conversion(decimal/8) + dec[indice]); // Se ocupa el indice para asignar la variable Hasta que ya
                                                              // no sea posible dividir
         } else {
             return ("");

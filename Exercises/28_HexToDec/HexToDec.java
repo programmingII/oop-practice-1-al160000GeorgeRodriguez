@@ -1,7 +1,7 @@
 
 //Autor: George Rodríguez
 //Fecha y hora: 7/2/2019 12:45
-//Hace: octal a decimal.
+//Hace: Hexadecimal a decimal.
 import java.util.Scanner; //Se importa la librería Scanner para el ingreso desde el teclado
 
 public class HexToDec {
