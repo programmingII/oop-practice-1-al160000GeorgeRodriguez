@@ -2,7 +2,7 @@
 // Autor: George Rodríguez
 // Fecha y hora: 21/2/2019 15:00
 // Hace: Contar tipos de palabra.
-import java.util.Scanner;
+import java.util.Scanner; // Libreria que permite el acceso de datos desde consola
 
 class CountWords {
     public static int palD(String palabra,int i, int contador) {//Cuenta los numeros
