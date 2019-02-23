@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SumTwoNumbers",
+            "request": "launch",
+            "mainClass": "SumTwoNumbers",
+            "projectName": "Exercises_d47054c2"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BinToDec",
             "request": "launch",
             "mainClass": "BinToDec",
