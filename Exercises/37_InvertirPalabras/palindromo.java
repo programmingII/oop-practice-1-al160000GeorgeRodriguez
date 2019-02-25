@@ -14,8 +14,8 @@ class Palindromo {
 
     public static void main(String[] Args) {
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Ingrese una frase: ");
-        String palabra = entrada.nextLine();
+        System.out.println("Ingrese una frase: ");  // Se pide la frase
+        String palabra = entrada.nextLine();   //La frase se guarda aqui
         System.out.println("La frase invertida es: " + pal(palabra,0));
         
         
