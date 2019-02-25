@@ -4,16 +4,19 @@
 // Hace: Pide al usuario hacer una comparación
 import java.util.Scanner; // Libreria que permite el acceso de datos desde consola
 
-class SumTwoNumbers {
+class TwoInterger {
     public static void main(String[] Args) {
         Scanner entrada = new Scanner(System.in); // Se instancia el objeto
         System.out.println("Ingrese el primer numero:  "); // Se solicita el numero
         int numero1 = entrada.nextInt(); // Se lee la entrada
         System.out.println("Ingrese el segundo numero:  "); // Se solicita el numero
         int numero2 = entrada.nextInt(); // Se lee la entrada
-        System.out.println("Resultado:  "); // Se solicita el numero 
-        if(numero1+numero2) System.out.println("true"); // Se da la respuesta
-        else 
-        System.out.println("false"); // Se da la respuesta
+        if (numero1 > numero2)
+            System.out.println("Resultado:  " + numero1); // Se da la respuesta
+        else if (numero1 < numero2)
+            System.out.println("Resultado:  " + numero2); // Se da la respuesta
+        else
+            System.out.println("Resultado:  " + 0 + (numero1 / 6)); // Se da la respuesta
+
     }
 }
